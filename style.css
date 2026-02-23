@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.design {
+    max-width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.table {
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    border-top: 1px solid black;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+         
