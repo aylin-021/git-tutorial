@@ -8,6 +8,6 @@ let Input = "";
 numbers.forEach(function(item) {
     item.addEventListener("click", function() {
         Input += item.innerText;  
-        document.querySelector(".natije").innerText = currentInput;
+        document.querySelector(".natije").innerText = Input;
     });
 });
