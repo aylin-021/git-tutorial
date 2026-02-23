@@ -3,11 +3,11 @@ let zarbBtn = document.querySelector(".zarb");
 let resultBtn = document.querySelector(".result"); 
 let display = document.querySelector(".natije"); 
 
-let currentInput = ""; 
+let Input = ""; 
 
 numbers.forEach(function(item) {
     item.addEventListener("click", function() {
-        currentInput += item.innerText;  
+        Input += item.innerText;  
         document.querySelector(".natije").innerText = currentInput;
     });
 });
