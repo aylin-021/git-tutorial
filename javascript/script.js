@@ -18,7 +18,6 @@ number.forEach(item => {
     })
 });
 
-
 zarb.addEventListener("click", function () {
     if (zakhireMeghdarFeli !== "") {
         zakhireMeghdarGhabli = zakhireMeghdarFeli;
@@ -49,7 +48,7 @@ taghsim.addEventListener("click", function () {
         zakhireMeghdarFeli = "";
         zakhireAmalgareEntekhabi = "/";
     }
-})
+});
 
 clear.addEventListener("click", function () {
     zakhireMeghdarGhabli = "";
@@ -82,3 +81,6 @@ result.addEventListener("click", function () {
         natije.textContent = resultt;
     }
 });
+
+
+
