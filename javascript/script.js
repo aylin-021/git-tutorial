@@ -81,6 +81,3 @@ result.addEventListener("click", function () {
         natije.textContent = resultt;
     }
 });
-
-
-
